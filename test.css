@@ -32,7 +32,6 @@
     body {
         padding-top: 20px; 
     }
-}
     header h1 {
         font-size: 36px;
     }
@@ -90,20 +89,11 @@
     .hamburger {
         display: flex;
     }
-    .nav-menu {
+    .nav-menu{
         display: none;
     }
-
-    .nav-menu.active {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        right: 0;
-        background-color: var(--color-primary);
-        text-align: center;
+    .nav-button{
+        display: none
     }
-    .nav-menu {
-        display: none;
-    }
+}
+ 
